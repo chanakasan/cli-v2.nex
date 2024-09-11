@@ -3,7 +3,7 @@ get_nex_root() {
 }
 
 get_cli_path() {
-  echo $nx2_cli_root
+  echo $nx_cli_v2_root
 }
 
 get_root_path() {

@@ -54,7 +54,7 @@ try_sub() {
 }
 
 get_cli_root() {
-  echo $nx2_cli_root
+  echo $nx_cli_v2_root
 }
 
 print_usage() {

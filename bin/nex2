@@ -2,9 +2,8 @@
 
 set -e
 
-export nx2_cli_root=$HOME/dotfiles/cli.nex/v2
-source $nx2_cli_root/.internal/core/nex.sh
-source $nx2_cli_root/.internal/core/subcommands.sh
-source $nx2_cli_root/.internal/lib/types.sh
+source $nx_cli_v2_root/.internal/core/nex.sh
+source $nx_cli_v2_root/.internal/core/subcommands.sh
+source $nx_cli_v2_root/.internal/lib/types.sh
 
 nex_main "$@"
